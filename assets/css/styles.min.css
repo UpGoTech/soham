@@ -1,0 +1,235 @@
+.head1,
+.head2,
+.para {
+    font-family: Poppins;
+}
+
+.head1,
+.masthead {
+    background-repeat: no-repeat;
+}
+
+.head1 {
+    background-image: url(../../assets/img/h1-back.png);
+    background-position: center;
+    padding-bottom: 20px;
+}
+
+.head2 {
+    font-size: 30px;
+    color: #8DB601;
+    font-weight: 700;
+}
+
+.head3 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 350;
+}
+.para {
+    font-size: 14px;
+    color: #222;
+    text-align: justify;
+}
+.paracenter {
+    font-size: 14px;
+    color: #222;
+	text-align:center;
+	 font-family: Poppins;
+}
+ 
+
+.masthead {
+    background-image: url(../../assets/img/header-back.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+#about {
+    padding: 25px 0;
+}
+
+#heading {
+    font-family: Lobster;
+    font-size: 40px;
+    max-width: 670px;
+}
+
+.heading-para {
+    margin-top: 40px;
+    font-family: Lato;
+    font-size: 24px!important;
+    font-weight: 400!important;
+}
+
+#foot,
+.card,
+.unlist {
+    font-family: Poppins;
+    font-size: 14px;
+}
+
+#para1 {
+    margin-top: -10px;
+}
+#latestnews{
+	background-color:#accb06; font-size:16px; font-family: Poppins; color:#FFF; padding:5px;
+}
+
+@media (min-width:992px){
+    header.masthead {
+        height: 70vh;
+    }
+
+    .logotop {
+        background-image: url(../../assets/img/logo-back.png);
+        background-repeat: no-repeat;
+        position: fixed;
+        height: 206px;
+        top: 0;
+        left: 45px;
+        overflow-y: auto;
+        width: 216px;
+        padding: 25px;
+    }
+}
+
+@media (min-width:1200px){
+    .logotop {
+        left: 15vh;
+    }
+}
+
+.btn-outline-primary {
+    border-radius: 5px;
+    border: 2px solid #ACCB06;
+    color: #000;
+}
+
+.btn-outline-primary:hover {
+    color: #FFF;
+    background-color: #ACCB06;
+    border-color: #ACCB06;
+}
+
+.btn-outline-primary:active {
+    border-color: #ACCB06;
+}
+
+#facilities {
+    padding: 25px 25px 50px;
+    background-image: url(../../assets/img/faclities-back.png);
+}
+
+#list-of-facilities {
+    background-color: rgba(255,255,255,.9);
+    padding: 10px 10px 40px;
+    border-radius: 10px;
+}
+
+.card-col,
+.card-col p {
+    padding: 0;
+    margin: 0;
+}
+
+.card {
+    background: 0 0;
+    border: none;
+    color: #000;
+}
+
+.btn-primary {
+    color: #FFF;
+    background-color: #ACCB06;
+    border: none;
+    border-radius: 5px;
+}
+
+#faclities-more {
+    margin-top: -25px;
+    border-radius: 0;
+}
+
+#faclities-more:hover {
+    background-color: #ACCB06!important;
+}
+
+#infra {
+    padding: 25px;
+    background-color: #EBEBEB;
+}
+
+#infrabutt {
+    margin: 15px 0;
+}
+
+#application {
+    background-color: #ACCb06;
+}
+
+#portfolio {
+    padding: 25px 0;
+    margin: 25px 0 0;
+}
+
+hr {
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #ACCB06;
+}
+
+a,
+a:hover {
+    color: #ACCB06;
+}
+
+#foot {
+    padding: 10px 0;
+    margin: 0;
+    background-color: #000;
+    color: #FFF;
+}
+
+.portfolio-box .portfolio-box-caption {
+    background: rgba(172,203,6,.9);
+}
+
+.portfolio-image {
+		padding:10px;
+}
+
+#headcontent {
+    background-position: left;
+}
+
+#mainNav .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+#mainNav .navbar-nav>li.nav-item>a.nav-link:hover {
+    color: #ACCB06;
+}
+
+@media (min-width:992px){
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:focus:hover,
+    #mainNav.navbar-shrink .navbar-nav>li.nav-item>a.nav-link:hover {
+        color: #ACCB06;
+    }
+}
+
+.rate-box {
+    background-color: #FAFAFA;
+    padding: 20px;
+    border: 1px solid #D9D9D9;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.heading-box {
+    background-color: #accb06;
+	padding: 6px;
+    border: 1px solid #dee8bc;
+    margin-top: 0px;
+    border-radius: 5px;
+}
+
+#awards {
+    padding-bottom: 4rem;
+}
