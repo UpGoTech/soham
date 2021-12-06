@@ -26,19 +26,18 @@
     color: #ffffff;
     font-weight: 350;
 }
-
 .para {
     font-size: 14px;
     color: #222;
     text-align: justify;
 }
-
 .paracenter {
     font-size: 14px;
     color: #222;
-    text-align: center;
-    font-family: Poppins;
+	text-align:center;
+	 font-family: Poppins;
 }
+ 
 
 .masthead {
     background-image: url(../../assets/img/header-back.jpg);
@@ -73,13 +72,8 @@
 #para1 {
     margin-top: -10px;
 }
-
-#latestnews {
-    background-color: #accb06;
-    font-size: 16px;
-    font-family: Poppins;
-    color: #FFF;
-    padding: 5px;
+#latestnews{
+	background-color:#accb06; font-size:16px; font-family: Poppins; color:#FFF; padding:5px;
 }
 
 @media (min-width:992px){
@@ -202,7 +196,7 @@ a:hover {
 }
 
 .portfolio-image {
-    padding: 10px;
+		padding:10px;
 }
 
 #headcontent {
@@ -228,10 +222,9 @@ a:hover {
     margin-top: 20px;
     border-radius: 10px;
 }
-
 .heading-box {
     background-color: #accb06;
-    padding: 6px;
+	padding: 6px;
     border: 1px solid #dee8bc;
     margin-top: 0px;
     border-radius: 5px;
