@@ -1,0 +1,15 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Complied Destination Files.
+public/
+
+#Pinegrow files
+_pgbackup/
+_pginfo/
